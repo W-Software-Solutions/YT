@@ -3,10 +3,12 @@ import Image from "next/image";
 import Hero from "./_components/Hero";
 import Navbar from "./_components/Navbar";
 import Footer from "./_components/Footer";
+import Top from "./_components/Top";
 
 export default function Home() {
   return (
     <div>
+      <Top/>
       <Navbar />
       <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 p-4">
         <video

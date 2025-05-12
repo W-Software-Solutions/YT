@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
     return (
@@ -26,21 +27,22 @@ export default function Navbar() {
                 </h1>
             </div>
 
+
             <div className="flex flex-wrap justify-center gap-4 p-4">
-                <button className="bg-transparent border border-blue-500 text-blue-500 font-semibold py-2 px-6 rounded-full shadow-lg transform transition duration-300 hover:scale-105 hover:bg-blue-500 hover:text-white cursor-pointer"
-                onClick={() => window.open('https://www.youtube.com/@Entertainment_And_Info/?sub_confirmation=1', '_blank')}>
+                <button className="bg-[#020024] border border-blue-500 text-white font-bold py-2 px-6 rounded-full shadow-lg transform transition duration-300 hover:scale-105 hover:bg-blue-500 hover:text-white cursor-pointer"
+                    onClick={() => window.open('https://www.youtube.com/@Entertainment_And_Info/?sub_confirmation=1', '_blank')}>
                     Subscribe
                 </button>
-                <button className="bg-transparent border border-blue-500 text-blue-500 font-semibold py-2 px-6 rounded-full shadow-lg transform transition duration-300 hover:scale-105 hover:bg-blue-500 hover:text-white cursor-pointer"
-                onClick={() => window.open('https://www.youtube.com/@Entertainment_And_Info/shorts', '_blank')}>
+                <button className="bg-[#020024] border border-blue-500 text-white font-bold py-2 px-6 rounded-full shadow-lg transform transition duration-300 hover:scale-105 hover:bg-blue-500 hover:text-white cursor-pointer"
+                    onClick={() => window.open('https://www.youtube.com/@Entertainment_And_Info/shorts', '_blank')}>
                     Watch Videos
                 </button>
-                <button className="bg-transparent border border-blue-500 text-blue-500 font-semibold py-2 px-6 rounded-full shadow-lg transform transition duration-300 hover:scale-105 hover:bg-blue-500 hover:text-white cursor-pointer"
-                onClick={() => window.open('https://www.youtube.com/@Entertainment_And_Info/community', '_blank')}>
+                <button className="bg-[#020024] border border-blue-500 text-white font-bold py-2 px-6 rounded-full shadow-lg transform transition duration-300 hover:scale-105 hover:bg-blue-500 hover:text-white cursor-pointer"
+                    onClick={() => window.open('https://www.youtube.com/@Entertainment_And_Info/community', '_blank')}>
                     Join Community
                 </button>
-                <button className="bg-transparent border border-blue-500 text-blue-500 font-semibold py-2 px-6 rounded-full shadow-lg transform transition duration-300 hover:scale-105 hover:bg-blue-500 hover:text-white cursor-pointer"
-                onClick={() => window.open('https://www.youtube.com/@Entertainment_And_Info/about', '_blank')}>
+                <button className="bg-[#020024] border border-blue-500 text-white font-bold py-2 px-6 rounded-full shadow-lg transform transition duration-300 hover:scale-105 hover:bg-blue-500 hover:text-white cursor-pointer"
+                    onClick={() => window.open('https://www.youtube.com/@Entertainment_And_Info/about', '_blank')}>
                     About Us
                 </button>
             </div>

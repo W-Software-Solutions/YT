@@ -15,7 +15,7 @@ export default function Footer() {
               height={150}
               className="rounded-full" 
             />
-            <h1 className='text-bold items-center p-3'>Entertainment_And_Info</h1>
+            <h1 className='font-bold items-center p-3 py-5'>Entertainment_And_Info</h1>
           </div>
 
           <div className="w-full md:w-1/4 mb-6 md:mb-0"> 
